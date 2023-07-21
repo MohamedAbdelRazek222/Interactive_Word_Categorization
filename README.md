@@ -22,3 +22,10 @@ utilities: Contains the functions which calulate the  generateRandomWords and ca
 config.end: conatins NODE_ENV=development , PORT=4000 ,DB =mongodb ://localhost/NameOfDataBase
 
 #images
+correct
+![correct](https://github.com/MohamedAbdelRazek222/Interactive_Word_Categorization/assets/118555438/7de7c315-ffc4-4711-9115-a820745b5d03)
+incorrect
+![incorrect](https://github.com/MohamedAbdelRazek222/Interactive_Word_Categorization/assets/118555438/08edd9c9-0926-4e24-9aa4-ddd7b7eda28e)
+try again
+![tryAgain](https://github.com/MohamedAbdelRazek222/Interactive_Word_Categorization/assets/118555438/4d8e3559-0da5-4ce2-9231-ad5517183380)
+
