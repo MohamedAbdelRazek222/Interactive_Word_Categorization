@@ -21,7 +21,7 @@ Routes: Contains the Routes for the "words" and "rank" .
 utilities: Contains the functions which calulate the  generateRandomWords and calculateRank
 config.end: conatins NODE_ENV=development , PORT=4000 ,DB =mongodb ://localhost/NameOfDataBase
 
-#images
+# images
 correct
 ![correct](https://github.com/MohamedAbdelRazek222/Interactive_Word_Categorization/assets/118555438/7de7c315-ffc4-4711-9115-a820745b5d03)
 incorrect
