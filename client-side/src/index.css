@@ -1,0 +1,148 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.logo{
+
+  display: flex;
+  justify-content:center;
+}
+.logo img{
+width: 20%;
+/* box-shadow: 10px 5px 5px #d71414; */
+/* box-shadow: 12px 12px 1px rgba(255, 0, 102, 0.2); */
+/* box-shadow: 10px 5px 5px #e37575 ,-1rem 0 .4em rgb(227, 117, 70); */
+box-shadow: -1rem 0 .4em rgb(227, 117, 70);
+
+
+}
+/* PracticeScreen*************** */
+.content{
+border-radius: .5rem;
+
+display: flex;
+  width: 50%;
+  flex-direction:column;
+  justify-content: center;
+
+}
+.all{
+display: flex;
+justify-content:center;
+margin-top:4rem;
+
+}
+button{
+  /* font-family: 'Snowinter', sans-serif; */
+  font-family: 'Union soap', sans-serif;
+  box-shadow: 10px 5px 5px rgb(227, 117, 70); ;
+
+border-radius: 1rem;
+margin-bottom:2rem;
+font-size:4rem;
+font-weight: 500;
+color: rgb(227, 117, 70);
+transition:  all .5s;
+cursor: pointer;
+
+}
+button:hover{
+
+background: #000000;
+
+color: #c98c30;
+
+}
+.question{
+  text-align: center;
+  font-family: 'Mister Haddaris', sans-serif;
+  font-family: 'Keep on Truckin', sans-serif;  
+  font-size:4rem;
+  font-weight: 500;
+  color: #946bfb;
+
+}
+.answerResult{
+  font-family: 'Overmuch', sans-serif;
+  color: #c98c30;
+  font-weight: 500;
+  font-size:2rem;
+
+
+}
+.progress{
+
+  width: 11rem;
+  height:.5rem;
+  border-radius:1rem;
+}
+.practiceCompleted{
+  font-family: 'Overmuch', sans-serif;
+  color: #c98c30;
+  font-weight: 500;
+  font-size:2rem;
+  text-align:center
+}
+/* RankScreen*************** */
+
+.rank{
+  font-family: 'Overmuch', sans-serif;
+  color: #946bfb;
+  font-weight: 500;
+  font-size:2rem;
+  text-align:center
+}
+.tryAgain{
+  display: flex;
+ flex-direction: column;
+background: #5f1147;
+padding: 2rem;
+}
+.tryAgainButton{
+  display: flex;
+  justify-content: center;
+}
+
+/* media*************** */
+@media (max-width: 768px){
+  .logo img{
+    width: 20%;
+    /* box-shadow: 10px 5px 5px #d71414; */
+    /* box-shadow: 12px 12px 1px rgba(255, 0, 102, 0.2); */
+    /* box-shadow: 10px 5px 5px #e37575 ,-1rem 0 .4em rgb(227, 117, 70); */
+    box-shadow: -.5rem 0 .4em rgb(227, 117, 70);
+    
+    }
+  button{
+    /* font-family: 'Snowinter', sans-serif; */
+    font-family: 'Union soap', sans-serif;
+    box-shadow: 10px 5px 5px #c98c30 ;
+  
+  border-radius: 1rem;
+  margin-bottom:2rem;
+  font-size:1rem;
+  font-weight: 500;
+  color: rgb(197, 119, 63);
+  transition:  all .5s;
+  }
+  .question{
+    text-align: center;
+    font-family: 'Mister Haddaris', sans-serif;
+    font-family: 'Keep on Truckin', sans-serif;  
+    font-size:1rem;
+    font-weight: 100;
+    color: #946bfb;
+  
+  }
+  .answerResult{
+    font-family: 'Overmuch', sans-serif;
+    color: #c98c30;
+    font-weight: 100;
+    font-size:1rem;
+  
+  
+  }
+
+}
