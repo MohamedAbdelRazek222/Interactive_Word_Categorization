@@ -1,11 +1,11 @@
 # Interactive_Word_Categorization
-#Description
+# Description
 In this project, we have created an interactive activity using React.js, node.js, and Express.js that helps students practice categorizing a set of words according to their part of speech. Words can be categorized into different parts of speech, such as nouns, verbs, adjectives, and more.
-#Technologies Used
+# Technologies Used
 React.js: Used for building the front-end user interface and components for the interactive activity.
 Node.js: Used for creating the Express.js server to handle API requests and responses.
 Express.js: Used as the backend framework to handle server-side logic and endpoints.
-#Project Structure
+# Project Structure
 1-`clientsIDE`: Contains the React.js front-end code.
 src: Holds all React components and main application files.
 components: Contains specific components for the interactive activity : PracticeScreen and RankScreen.
